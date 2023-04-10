@@ -11,14 +11,20 @@
 		F624419B29E2EB02002E4F91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F624419A29E2EB02002E4F91 /* ContentView.swift */; };
 		F624419D29E2EB05002E4F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F624419C29E2EB05002E4F91 /* Assets.xcassets */; };
 		F62441A029E2EB05002E4F91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F624419F29E2EB05002E4F91 /* Preview Assets.xcassets */; };
+		F62441A729E2EC1F002E4F91 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62441A629E2EC1F002E4F91 /* HomeView.swift */; };
+		F62441A929E2F5BC002E4F91 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62441A829E2F5BC002E4F91 /* OnboardingView.swift */; };
+		F663387029E41F5600446AB3 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F663386F29E41F5600446AB3 /* CircleGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F624419529E2EB02002E4F91 /* HomePage-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomePage-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F624419529E2EB02002E4F91 /* HomeSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F624419829E2EB02002E4F91 /* HomePage_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage_SwiftUIApp.swift; sourceTree = "<group>"; };
 		F624419A29E2EB02002E4F91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F624419C29E2EB05002E4F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F624419F29E2EB05002E4F91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F62441A629E2EC1F002E4F91 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F62441A829E2F5BC002E4F91 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F663386F29E41F5600446AB3 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +49,7 @@
 		F624419629E2EB02002E4F91 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F624419529E2EB02002E4F91 /* HomePage-SwiftUI.app */,
+				F624419529E2EB02002E4F91 /* HomeSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +57,13 @@
 		F624419729E2EB02002E4F91 /* HomePage-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F663386C29E41EFF00446AB3 /* Views */,
 				F624419829E2EB02002E4F91 /* HomePage_SwiftUIApp.swift */,
 				F624419A29E2EB02002E4F91 /* ContentView.swift */,
+				F62441A629E2EC1F002E4F91 /* HomeView.swift */,
 				F624419C29E2EB05002E4F91 /* Assets.xcassets */,
 				F624419E29E2EB05002E4F91 /* Preview Content */,
+				F62441A829E2F5BC002E4F91 /* OnboardingView.swift */,
 			);
 			path = "HomePage-SwiftUI";
 			sourceTree = "<group>";
@@ -67,12 +76,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F663386C29E41EFF00446AB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F663386F29E41F5600446AB3 /* CircleGroupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F624419429E2EB02002E4F91 /* HomePage-SwiftUI */ = {
+		F624419429E2EB02002E4F91 /* HomeSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F62441A329E2EB05002E4F91 /* Build configuration list for PBXNativeTarget "HomePage-SwiftUI" */;
+			buildConfigurationList = F62441A329E2EB05002E4F91 /* Build configuration list for PBXNativeTarget "HomeSwiftUI" */;
 			buildPhases = (
 				F624419129E2EB02002E4F91 /* Sources */,
 				F624419229E2EB02002E4F91 /* Frameworks */,
@@ -82,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = "HomePage-SwiftUI";
+			name = HomeSwiftUI;
 			productName = "HomePage-SwiftUI";
-			productReference = F624419529E2EB02002E4F91 /* HomePage-SwiftUI.app */;
+			productReference = F624419529E2EB02002E4F91 /* HomeSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F624419029E2EB02002E4F91 /* Build configuration list for PBXProject "HomePage-SwiftUI" */;
+			buildConfigurationList = F624419029E2EB02002E4F91 /* Build configuration list for PBXProject "HomeSwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F624419429E2EB02002E4F91 /* HomePage-SwiftUI */,
+				F624419429E2EB02002E4F91 /* HomeSwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F663387029E41F5600446AB3 /* CircleGroupView.swift in Sources */,
+				F62441A729E2EC1F002E4F91 /* HomeView.swift in Sources */,
+				F62441A929E2F5BC002E4F91 /* OnboardingView.swift in Sources */,
 				F624419B29E2EB02002E4F91 /* ContentView.swift in Sources */,
 				F624419929E2EB02002E4F91 /* HomePage_SwiftUIApp.swift in Sources */,
 			);
@@ -320,7 +340,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F624419029E2EB02002E4F91 /* Build configuration list for PBXProject "HomePage-SwiftUI" */ = {
+		F624419029E2EB02002E4F91 /* Build configuration list for PBXProject "HomeSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F62441A129E2EB05002E4F91 /* Debug */,
@@ -329,7 +349,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F62441A329E2EB05002E4F91 /* Build configuration list for PBXNativeTarget "HomePage-SwiftUI" */ = {
+		F62441A329E2EB05002E4F91 /* Build configuration list for PBXNativeTarget "HomeSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F62441A429E2EB05002E4F91 /* Debug */,
